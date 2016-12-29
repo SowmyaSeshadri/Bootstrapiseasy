@@ -68,13 +68,8 @@ color: black;
     padding:20px;
   }
 }
-@media screen and (min-width:700px)
-{  .but
-  {
-    padding:20px;
-  }
-}
-@media screen and (min-width:1100px)
+
+@media screen and (min-width:900px)
 {  .but
   {
     padding:15px;
