@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>Blasting off with bootstrap</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="sample.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class=" row navbar navbar-inverse navbar-static-top ">
+
+      <a href="" class="navbar-brand">Boostrap</a>
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  <span class="icon-bar"></span></button>
+</div>
+      <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+        <li> <a href="">Tickets</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Stations</a></li>
+          <li ><a href="about.html" data-target="#" data-toggle="dropdown">
+            About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href='story.html'>Our Story</a></li>
+              <li><a href='contact.html'>Contact Us</a></li>
+              <li class="divider"></li>
+              <li><a href='/blog'>Blog</a></li>
+              <li class="divider"></li>
+              <li><a href='http://twitter.com/...'>Twitter</a></li>
+              <li><a href='http://facebook.com/...'>Facebook</a></li>
+            </ul>
+
+          </li>
+      </ul>
+
+  </div>
+    <div class="row">
+      <div class="col-md-6 well well-lg">
+          <h2>Learn Bootstrap</h2>
+          <p class="lead">Bootstrap is a framework-front end which is responsive and reduces the time and complexity.</p>
+          <button type="button" class="btn btn-lg btn-info">Take the tour</button>
+          <button type="button" class="btn btn-lg btn-success">Download</button>
+      </div>
+      <div class="col-md-6 hidden-xs hidden-xm">
+        <img src="data:image/jpeg;base64,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">
+      </div>
+    </div>
+    <div class="row text-center features">
+      <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+        <i class="glyphicon glyphicon-download-alt"></i>
+      <h3>How to download?</h3>
+      <p>Visit getboottstrap.com to download bootstrap.Very easy download.</p>
+      </div>
+      <div class="col-sm-4 col-xs-6">
+      <i class="glyphicon glyphicon-list-alt"></i>
+      <h3>How to use in html?</h3>
+      <p>You will find 3 folders in the zip file which is downloaded. css js and one more</p>
+      </div>
+      <div class="col-sm-4 col-xs-6">
+        <i class="glyphicon glyphicon-random"></i>
+        <h3>Know more about!</h3>
+        <p>It consists of somecss fonts and js file and we dont have to know everything in js instead we can use bootstrap.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
