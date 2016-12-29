@@ -1,3 +1,5 @@
+
+
 .landing
 {
 font-size:50px;
@@ -8,6 +10,7 @@ body{
 padding:70px;
 color:#B4B4B4;
 font-family: 'Arima Madurai', cursive;
+overflow:auto;
 }
 
 .line
@@ -39,6 +42,7 @@ button{
     margin-bottom:20px;
   }
 }
+
 .definition
 {
   padding-top: 20px;
@@ -55,8 +59,9 @@ button{
 .container
 {
 color: black;
-
+height:100%;
 }
+
 .meta
 {
   margin-bottom:10px;
@@ -115,7 +120,6 @@ color: black;
 }
 .foot
 {
-
 color:black;
 }
 .foot a{
