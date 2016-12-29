@@ -24,21 +24,7 @@ background-color:black;
 button{
   margin-right: 12px;
 }
-@media screen and (min-width:700px)
-{
-  button{
-    margin-right: 12px;
-    margin-top: 10px;
-  }
-}
-@media screen and (min-width:300px)
-{
-  button{
-    margin-right: 12px;
-    margin-top: 10px;
-    margin-bottom:20px;
-  }
-}
+
 .definition
 {
   padding-top: 20px;
@@ -68,4 +54,10 @@ color: black;
 .meta li:last-child
 {
   border-right: none;
+}
+@media screen and (min-width:700px)
+{  .but
+  {
+    padding:20px;
+  }
 }
